@@ -1,3 +1,9 @@
+---
+category: Java
+tags: [java, thread]
+---
+
+
 ## 차이점
 
 Thread synchronization은 여러 스레드가 공유된 리소스에 동시에 접근하는 것을 조절하기 위해 사용됩니다. synchronized 블록 방식과 synchronized 메소드 방식은 둘 다 스레드 동기화를 달성하는 데 사용되지만, 구현 방식에 약간의 차이가 있습니다.
