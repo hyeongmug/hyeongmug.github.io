@@ -111,10 +111,10 @@ SQL>
 
 dbeaver를 통해서도 접속해 보겠습니다.
 
-![img.png](../assets/img/post/2023-11-10/img.png)
-![img_1.png](../assets/img/post/2023-11-10/img_1.png)
+![img.png](/assets/img/post/2023-11-10/img.png)
+![img_1.png](/assets/img/post/2023-11-10/img_1.png)
 
-접접속에 성공했습니다.
+접속에 성공했습니다.
 
 
 이제 M1 맥에서도 오라클을 사용할 수 있게 되었습니다.
