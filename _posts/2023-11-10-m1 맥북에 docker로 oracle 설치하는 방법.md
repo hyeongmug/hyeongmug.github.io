@@ -112,8 +112,8 @@ SQL>
 
 dbeaver를 통해서도 접속해 보겠습니다.
 
-![img.png](/assets/img/post/2023-11-10/img.png)
-![img_1.png](/assets/img/post/2023-11-10/img_1.png)
+![오라클 접속](/assets/img/post/2023-11-10/img.png)
+![오라클 접속 성공](/assets/img/post/2023-11-10/img_1.png)
 
 접속에 성공했습니다.
 
