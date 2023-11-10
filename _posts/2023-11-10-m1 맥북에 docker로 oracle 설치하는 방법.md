@@ -31,19 +31,19 @@ colima start --memory 4 --arch x86_64
 Colima를 사용할 때는 Docker의 context를 변경해야 합니다.
 
 docker context ls 명령어를 통해서 현재 context를 확인할 수 있습니다.
+``` bash
+docker context ls
+```
 ``` 
 NAME                TYPE                DESCRIPTION                               DOCKER ENDPOINT                                 KUBERNETES ENDPOINT   ORCHESTRATOR
 colima *            moby                colima                                    unix:///Users/lim/.colima/default/docker.sock                         
 default             moby                Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                                           
 desktop-linux       moby                Docker Desktop                            unix:///Users/lim/.docker/run/docker.sock                             
-
 ```
 
 colima context를 사용하도록 변경해 줍니다.
 
 ``` bash
-
-```bash
 docker context use colima
 ```
 
@@ -55,7 +55,6 @@ gvenzl/oracle-xe 이미지를 사용해서 설치 해보겠습니다.
 
 docker-compose.yml 파일을 만들어 줍니다.
 
-``` bash
 ``` yml
 version: '3'
 services:
