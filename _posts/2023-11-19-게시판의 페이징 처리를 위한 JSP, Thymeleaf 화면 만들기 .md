@@ -1,3 +1,7 @@
+## 화면 
+
+![img.png](/assets/img/post/2023-11-19/img.png)
+
 ## JSP
 ```html
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
