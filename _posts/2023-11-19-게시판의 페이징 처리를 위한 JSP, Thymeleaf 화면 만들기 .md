@@ -79,7 +79,7 @@
             pagination.appendChild(aTag);
         }
         
-        if (pageNum != 1) {
+        if (pageNum > 1) {
             appendAtag(1, "&lt;&lt; 처음");
         }
         
@@ -95,7 +95,7 @@
             appendAtag(startPage + pageCount, "다음 &gt;");
         }
 
-        if (pageNum != totalPageCount) {
+        if (pageNum < totalPageCount) {
             appendAtag(totalPageCount, "마지막 &gt;&gt;");
         }
         
@@ -165,7 +165,7 @@
             pagination.appendChild(aTag);
         }
         
-        if (pageNum != 1) {
+        if (pageNum > 1) {
             appendAtag(1, "&lt;&lt; 처음");
         }
         
@@ -181,7 +181,7 @@
             appendAtag(startPage + pageCount, "다음 &gt;");
         }
 
-        if (pageNum != totalPageCount) {
+        if (pageNum < totalPageCount) {
             appendAtag(totalPageCount, "마지막 &gt;&gt;");
         }
         
